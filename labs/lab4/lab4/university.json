@@ -1,0 +1,174 @@
+{
+  "name": "Dnipro University of technology",
+  "rector": {
+    "type": "Human",
+    "data": {
+      "lastName": "Azyukovsky",
+      "firstName": "Oleksandr",
+      "patronymic": "Oleksandrovic",
+      "sex": "MALE"
+    }
+  },
+  "faculties": [
+    {
+      "name": "Faculty of Information Technology",
+      "head": {
+        "type": "Human",
+        "data": {
+          "lastName": "Udovik",
+          "firstName": "Iryna",
+          "patronymic": "Mykhailivna",
+          "sex": "FEMALE"
+        }
+      },
+      "departments": [
+        {
+          "name": "Department of Computer Systems Software",
+          "head": {
+            "type": "Human",
+            "data": {
+              "lastName": "Martynenko",
+              "firstName": "Andriy",
+              "patronymic": "Anatoliyovych",
+              "sex": "MALE"
+            }
+          },
+          "groups": [
+            {
+              "name": "122-21-2",
+              "head": {
+                "type": "Human",
+                "data": {
+                  "lastName": "Sholoiko",
+                  "firstName": "Sophia",
+                  "patronymic": "Andriyivna",
+                  "sex": "FEMALE"
+                }
+              },
+              "students": [
+                {
+                  "lastName": "Iryna",
+                  "firstName": "Taran",
+                  "patronymic": "Vitaliivna",
+                  "sex": "FEMALE"
+                },
+                {
+                  "lastName": "Kateryna",
+                  "firstName": "Alekseenko",
+                  "patronymic": "Andriyivna",
+                  "sex": "FEMALE"
+                }
+              ]
+            },
+            {
+              "name": "122-21-3",
+              "head": {
+                "type": "Human",
+                "data": {
+                  "lastName": "Ihor",
+                  "firstName": "Savchenko",
+                  "patronymic": "Anatoliyovych",
+                  "sex": "MALE"
+                }
+              },
+              "students": [
+                {
+                  "lastName": "Hlib",
+                  "firstName": "Kosach",
+                  "patronymic": "Anatoliyovych",
+                  "sex": "MALE"
+                },
+                {
+                  "lastName": "Ivan",
+                  "firstName": "Pototskiy",
+                  "patronymic": "Oleksandrovic",
+                  "sex": "MALE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Department of Business Informatics",
+          "head": {
+            "type": "Human",
+            "data": {
+              "lastName": "Shvets",
+              "firstName": "Mykola",
+              "patronymic": "Ivanovic",
+              "sex": "MALE"
+            }
+          },
+          "groups": [
+            {
+              "name": "073-21-1",
+              "head": {
+                "type": "Human",
+                "data": {
+                  "lastName": "Koval",
+                  "firstName": "Hanna",
+                  "patronymic": "Vitaliivna",
+                  "sex": "FEMALE"
+                }
+              },
+              "students": []
+            },
+            {
+              "name": "073-21-2",
+              "head": {
+                "type": "Human",
+                "data": {
+                  "lastName": "Levina",
+                  "firstName": "Daryna",
+                  "patronymic": "Andriyivna",
+                  "sex": "FEMALE"
+                }
+              },
+              "students": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Economy",
+      "head": {
+        "type": "Human",
+        "data": {
+          "lastName": "Ivanov",
+          "firstName": "Ivan",
+          "patronymic": "Ivanovic",
+          "sex": "MALE"
+        }
+      },
+      "departments": [
+        {
+          "name": "Department of Management",
+          "head": {
+            "type": "Human",
+            "data": {
+              "lastName": "Lukashenko",
+              "firstName": "Maryna",
+              "patronymic": "Petrivna",
+              "sex": "FEMALE"
+            }
+          },
+          "groups": []
+        },
+        {
+          "name": "Department of Marketing",
+          "head": {
+            "type": "Human",
+            "data": {
+              "lastName": "Shevchenko",
+              "firstName": "Pavlo",
+              "patronymic": "Ivanovic",
+              "sex": "MALE"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}
