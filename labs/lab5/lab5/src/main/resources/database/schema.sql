@@ -1,21 +1,21 @@
--- Дозволяємо підключення з будь-якого джерела
+
 ALTER SYSTEM SET listen_addresses = '*';
 
--- Надаємо права користувачу
+
 GRANT ALL PRIVILEGES ON DATABASE students TO "user";
 
--- Створення таблиці
+
 CREATE TABLE IF NOT EXISTS students (
     id SERIAL PRIMARY KEY,
     last_name VARCHAR(50) NOT NULL,
     first_name VARCHAR(50) NOT NULL,
-    middle_name VARCHAR(50),
+    patronymic VARCHAR(50),
     birth_date DATE NOT NULL,
     record_book_number VARCHAR(20) UNIQUE NOT NULL
 );
 
--- Заповнюємо таблицю обовтусами
-INSERT INTO students (last_name, first_name, middle_name, birth_date, record_book_number)
+
+INSERT INTO students (last_name, first_name, patronymic, birth_date, record_book_number)
 VALUES
     ('Іваненко', 'Олег', 'Сергійович', '2001-02-15', '029673'),
     ('Петров', 'Андрій', 'Миколайович', '2000-03-20', '0352742'),
@@ -49,5 +49,5 @@ VALUES
     ('Терещенко', 'Лариса', 'Петрівна', '2002-03-27', '039345')
 ON CONFLICT (record_book_number) DO NOTHING;
 
--- Додаткові права на послідовність для автоінкременту
+
 GRANT USAGE, SELECT ON SEQUENCE students_id_seq TO "user";
